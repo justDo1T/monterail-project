@@ -1,0 +1,37 @@
+.comment {
+	background-color: #EEEEEE;
+	width: 90px;
+	height: 150px;
+	margin: 30px 0 0 12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.comment img {
+	width: 50px;
+	height: 50px;
+	padding: 25px 20px;
+	border-radius: 50%;
+}
+
+.comment-bottom {
+	align-self: flex-end;
+	border-top: 1px solid #A7A9AC;
+	width: 80%;
+	text-align: center;
+}
+
+.comment.answered .comment-bottom {
+	border-top: 1px solid #000;
+}
+
+.comment p {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 1.2rem;
+	color: #7D8B93;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 3px;
+	margin-bottom: -2px;
+}
