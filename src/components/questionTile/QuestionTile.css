@@ -130,3 +130,7 @@
 	font-size: 1.3rem;
 	margin-right: 5px;
 }
+
+.comment-href {
+	text-decoration: none;
+}

@@ -6,7 +6,7 @@ class HeaderQuestion extends Component {
     return (
       <div className="header-wrapper">
         <div className="back-arrow-1"></div>
-        <h2>QUESTION</h2>
+        <h2>{this.props.match.params.questionId}</h2>
         <div id="plus-sign">
           <div className="bar-vertical"></div>
           <div className="bar-horizontal"></div>

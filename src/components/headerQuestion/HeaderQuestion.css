@@ -31,8 +31,9 @@
     transform: rotate(135deg);
 }
 
-#header-wrapper h2 {
+.header-wrapper h2 {
 	font-size: 2.6rem;
+	text-transform: uppercase;
 }
 
 #plus-sign {
